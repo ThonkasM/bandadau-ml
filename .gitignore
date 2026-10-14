@@ -1,0 +1,25 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.key
+node_modules/
+dist/
+build/
+coverage/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.log
+
+# Python / modelos
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/*
+!data/README.md
+*.onnx
+*.pt
+*.safetensors
